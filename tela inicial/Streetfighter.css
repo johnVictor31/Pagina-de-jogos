@@ -1,0 +1,177 @@
+body {
+    margin: 0;
+    background-image: radial-gradient(49% 81% at 45% 47%, #0E70C445 0%, #073AFF00 100%),radial-gradient(113% 91% at 17% -2%, #0D0D0DFF 1%, #FF000000 99%),radial-gradient(142% 91% at 83% 7%, #1F358AFF 1%, #FF000000 99%),radial-gradient(142% 91% at -6% 74%, #2E477DFF 1%, #FF000000 99%),radial-gradient(142% 91% at 111% 84%, #18181DFF 0%, #FF0000FF 100%);
+  }
+  .header {
+    overflow: hidden;
+    background-color: lightblue;
+    padding: 10px 20px;
+  }
+  .header a {
+    float: left;
+    color: black;
+    text-align: center;
+    padding: 12px;
+    text-decoration: none;
+    font-size: 18px;
+    line-height: 25px;
+    border-radius: 4px;
+  }
+  .header a.logo {
+    font-size: 25px;
+    font-weight: bold;
+  }
+  .header a:hover {
+    background-color: #f1f1f1;
+    color: lightcoral;
+  }
+  .header a.active {
+    background-color: lightcoral;
+    color: white;
+  }
+  .header-right {
+    display: inline-block;
+    margin-top: 45px;
+  }
+  .home-container {
+    width: 100%;
+    display: flex;
+    overflow: auto;
+    min-height: 100vh;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .home-video {
+    top: 212px;
+    flex: 1;
+    left: 190px;
+    width: 550px;
+    height: auto;
+    position: absolute;
+    align-self: center;
+    border-color: #000000;
+    border: solid #D80286;
+  }
+  .home-image {
+    top: 212px;
+    right: 250px;
+    width: 409px;
+    height: 215px;
+    position: absolute;
+    object-fit: cover;
+    border: solid #D80286;
+  }
+  .home-image2 {
+    top: 710;
+    left: 190;
+    width:250px;
+    height: 190px;
+    position: absolute;
+    object-fit: cover;
+    margin-right: 19px;
+    border: solid #D80286;
+    cursor: pointer;
+  }
+  .home-image3 {
+    top: 710;
+    left: 480;
+    width:250px;
+    height: 190px;
+    position: absolute;
+    object-fit: cover;
+    margin-right: 19px;
+    border: solid #D80286;
+    cursor: pointer;
+  }
+  .home-image4{
+    top: 600px;
+    right: 250px;
+    position: absolute;
+    object-fit: cover;
+  }
+  .home-image5{
+    top: 600px;
+    right: 350px;
+    position: absolute;
+    object-fit: cover;
+    background: none;
+  }
+  .home-image6{
+    top: 600px;
+    right: 450px;
+    position: absolute;
+    object-fit: cover;
+    background: none;
+  }
+  .home-titulo-jogo {
+    color: #ffffff;
+    top: 160px;
+    left: 190px;
+    width: auto;
+    position: absolute;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    -webkit-text-stroke: #D80286;
+    -webkit-text-stroke-width: 0.5px;  
+  }
+  .home-titulo-jogo2{
+    color: #ffffff;
+    bottom: 50px;
+    left: 190px;
+    width: auto;
+    position: absolute;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    -webkit-text-stroke: #D80286;
+    -webkit-text-stroke-width: 0.5px; 
+  }
+  
+  .home-compra {
+    top: 550px;
+    left: 445px;
+    position: absolute;
+    font-size: 25px;
+    color:#D80286;
+    background-color: #000000;
+    border: 2px solid rgb(216, 2, 134);
+    border-radius: 0px;
+    padding: 10px 12px;
+    font-family: "Lucida Console", Monaco, monospace;
+    letter-spacing: 1px;
+    cursor: pointer;
+    box-shadow: inset 0 0 0 0 #D80286;
+    -webkit-transition: ease-out 0.8s;
+    -moz-transition: ease-out 0.8s;
+    transition: ease-out 0.8s;
+  }
+  .home-compra:hover{
+    box-shadow: inset 0 0 0 50px #000000;
+  }
+  
+  .home-sinopse {
+    color: #ffffff;
+    top: 435px;
+    right: 220px;
+    position: absolute;
+    font-size: 20px;
+    text-align: justify;
+    -webkit-text-stroke: #D80286;
+    -webkit-text-stroke-width: 0.4px; 
+  }
+  @media(max-width: 991px) {
+    .home-video {
+      top: 140px;
+      left: 59px;
+      width: 423px;
+      height: 263px;
+    }
+    .home-image {
+      top: 137px;
+      right: 112px;
+      position: absolute;
+    }
+  }
+  
